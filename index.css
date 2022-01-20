@@ -1,0 +1,410 @@
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+  background-color: #00ADB5;
+  font-family: "Montserrat", sans-serif;
+}
+.center {
+  text-align: center;
+}
+.main-color {
+  background-color:  #00ADB5;
+  color: #000;
+}
+.pad {
+  padding: 1px 15%;
+}
+
+/* home section */
+#home {
+  margin-bottom: 27.7%;
+}
+/* brand */
+.brand {
+  font-family: "Permanent Marker", cursive;
+  font-size: 1.6rem;
+}
+
+/* navbar */
+.navi {
+  margin-bottom: 8%;
+}
+.nav-li {
+  margin: 5px 15px;
+}
+.nav-li a {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1rem;
+  padding: 10px 20px;
+}
+.note {
+  color: #EEEEEE;
+  font-family: "Lobster", cursive;
+  font-size: 2rem;
+}
+
+/* Home images */
+
+.home-img {
+  position: absolute;
+  left: 20%;
+  top: 14.5%;
+  height: 85%;
+  width: 60%;
+}
+
+.rocket {
+  position: absolute;
+  width: 5%;
+  right: 20%;
+}
+.satellite {
+  position: absolute;
+  width: 8%;
+  left: 20%;
+  top: 25%;
+}
+
+/* Title section */
+
+#title {
+  color: #222831;
+  background-color: #fff;
+  padding: 6% 0 6% 0;
+}
+.me {
+  font-size: 2.6rem;
+  font-weight: bolder;
+  margin-bottom: 4%;
+}
+
+.title-bio {
+  padding: 6% 3% 6% 0;
+  text-align: left;
+}
+.bio-text {
+  color: #222831;
+  font-family: "EB Garamond", serif;
+  font-size: 1.8rem;
+}
+
+.t-image {
+  width: 75%;
+  border: thick double #a12429;
+  border-radius: 100%;
+  margin: 0 0 0 20%;
+}
+.resume {
+  outline: none;
+  border: none;
+  background-color: #a12429;
+  border-radius: 50px;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.resume a {
+  text-decoration: none;
+  color: #EEEEEE;
+}
+
+/* skills */
+#skill {
+  color: #EEEEEE;
+  background-color:  #00ADB5;
+}
+
+.s-head {
+  font-weight: bold;
+  font-size: 1rem;
+  letter-spacing: 0.8rem;
+  padding-top: 2%;
+}
+.s-data {
+  font-size: 2.1rem;
+  font-weight: bold;
+  margin-bottom: 1.2rem;
+}
+.s-mdata {
+  font-size: 1.2rem;
+  color: #242aa1;
+}
+.skill1 {
+  margin-bottom: 4%;
+}
+.skill2 {
+  padding-bottom: 4%;
+}
+
+.web {
+  width: 25%;
+}
+.python {
+  width: 28%;
+}
+
+.left {
+  text-align: left;
+}
+.p-more {
+  font-family: "EB Garamond", serif;
+  font-size: 1.5rem;
+  padding: 2% 10% 2% 15%;
+}
+
+.s-img {
+  position: relative;
+  left: 10%;
+  padding-top: 3%;
+}
+.s-img p {
+  font-size: 1rem;
+  letter-spacing: 0.4rem;
+  font-weight: bold;
+}
+
+.s-img hr {
+  border-style: none;
+  border-color: #EEEEEE;
+  border-width: 1px;
+  height: 1.4%;
+  width: 20%;
+  position: relative;
+  left: 40%;
+}
+
+/* contact */
+
+#contact {
+  color: #222831;
+  background-color: #fff;
+  padding: 1% 5%;
+}
+.contact-me {
+  font-size: 1.6rem;
+}
+
+#contact i {
+  width: 8%;
+}
+.c-icon {
+  text-decoration: none;
+  color:  #00ADB5;
+}
+
+/* footer */
+
+footer {
+  background-color: #fff;
+  color:  #222831;
+  padding: 0;
+  margin: 0;
+}
+.credit {
+  display: inline-block;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.name {
+  display: inline-block;
+  font-family: "Lobster", cursive;
+  font-size: 1.5rem;
+}
+
+@media (min-width:1000px) and (max-width: 1200px) {
+  .home-img {
+    display: none;
+  }
+  .rocket {
+    display: none;
+  }
+  .satellite {
+    display: none;
+  }
+}
+
+@media (min-width:700px) and (max-width: 1000px) {
+  .home-img {
+    display: none;
+  }
+  .rocket {
+    display: none;
+  }
+  .satellite {
+    display: none;
+  }
+  .brand {
+    font-size: 1.2rem;
+  }
+  .note {
+    font-size: 1.5rem;
+  }
+  .me {
+    font-size: 2rem;
+  }
+  .bio-text {
+    text-align: center;
+    font-size: 1.4rem;
+  }
+  .title-bio {
+    padding: 0;
+  }
+  .t-image {
+    width: 30%;
+    margin: 0;
+  }
+  .resume {
+    outline: none;
+    border: none;
+    background-color: #a12429;
+    border-radius: 50px;
+    margin:4% 0 4% 41%;
+    padding: 6px 14px;
+    text-decoration: none;
+  }
+
+  .resume a {
+    font-size: 1rem;
+    text-decoration: none;
+    color: #faeee7;
+  }
+  .p-more {
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  .s-head {
+    font-size: 1rem;
+  }
+  .s-data {
+    font-size: 1.3rem;
+  }
+  .s-mdata {
+    font-size: 1rem;
+  }
+
+  .s-img {
+    position: static;
+  }
+  .s-img p{
+    font-size: 12px;
+    padding-bottom: 20px;
+  }
+  .web {
+    width: 10%;
+  }
+  .python {
+    width: 9%;
+  }
+  #contact i {
+    width: 10%;
+  }
+  .contact-me {
+    font-size: 1.2rem;
+    padding-bottom: 20px;
+  }
+  .credit {
+    font-size: 0.5rem;
+  }
+  .name {
+    font-size: 0.7rem;
+  }
+}
+
+
+@media (max-width: 700px) {
+  .brand {
+    font-size: 1rem;
+  }
+  .note {
+    font-size: 1.1rem;
+  }
+  .home-img {
+    display: none;
+  }
+  .rocket {
+    display: none;
+  }
+  .satellite {
+    display: none;
+  }
+  .me {
+    font-size: 1.8rem;
+  }
+  .bio-text {
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  .title-bio {
+    padding: 0;
+  }
+  .t-image {
+    width: 50%;
+    margin: 0;
+  }
+  .resume {
+    outline: none;
+    border: none;
+    background-color: #a12429;
+    border-radius: 50px;
+    padding: 4px 8px;
+    text-decoration: none;
+    margin-left: 39%;
+    margin-bottom: 4%;
+  }
+
+  .resume a {
+    font-size: 1rem;
+    text-decoration: none;
+    color: #faeee7;
+  }
+  .p-more {
+    text-align: center;
+    font-size: 0.8rem;
+  }
+  .s-head {
+    font-size: 0.8rem;
+  }
+  .s-data {
+    font-size: 1.0rem;
+  }
+  .s-mdata {
+    font-size: 0.8rem;
+  }
+
+  .s-img {
+    position: static;
+  }
+  .s-img p{
+    font-size: 8px;
+    padding-bottom: 10px;
+  }
+  .web {
+    width: 15%;
+  }
+  .python {
+    width: 15%;
+  }
+  #contact i {
+    width: 16%;
+  }
+  .contact-me {
+    font-size: 1.2rem;
+  }
+  .credit {
+    font-size: 0.5rem;
+  }
+  .name {
+    font-size: 0.7rem;
+  }
+}
+

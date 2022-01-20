@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=The+Nautigal:wght@700&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+    text-align: left;
+}
+
+::placeholder { 
+    font-size: 1rem;
+    opacity: 1; 
+  }
+  
+  :-ms-input-placeholder { 
+    font-size: 1rem;
+  }
+  
+  ::-ms-input-placeholder { 
+    font-size: 1rem;
+  }
+.head{
+    text-align: center;
+    padding: 3% 10% 3%;
+    background: url(images/dark-leaf.jpg) no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    font-family: "The Nautigal", cursive;
+    margin-bottom: 6%;
+    /* font-family: "EB Garamond", serif;
+    font-family: "Ubuntu", sans-serif; */
+    /* font-family: "Montserrat-bold", sans-serif; */
+}
+
+
+.m-img{
+    text-align: left;
+}
+
+.dep{
+    width: 100%;
+    height: 615px;
+    
+}
+
+.form-sec{
+    color:#000;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.boxx{
+    padding-left: 6rem;
+}
+.box1{
+    display: inline-block;
+    margin-bottom: 4%;
+}
+.rd{
+    width: 95%;
+}
+.lab{
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+.l-label{
+    margin-left: 40px;
+}
+#Lname{
+    margin-left: 40px; 
+}
+.n-label{
+    margin-left: 40px;
+}
+m-label{
+    margin-bottom: none;
+}
+#c-num{
+    margin-left: 40px; 
+}
+.in{
+    border: none;
+    border-bottom: solid 2px #000;
+    color: #30475E;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 1.2rem ;
+    outline: none;
+    
+}
+
+textarea{
+    width: 100%;
+    height: 55px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    font-size: 1.2rem;
+    resize: none;
+  }
+
+  @media (max-width: 1000px) {
+      
+      .m-img{
+          display: none;
+      }
+
+      .form-sec{
+          margin-left: 15%;
+      }
+      .boxx{
+          padding-left: 0.5rem;
+      }
+
+      .row{
+        --bs-gutter-x: 0.5rem;
+        margin: 0px;
+        display:inline-block;
+        flex-wrap: nowrap;
+      }
+
+      .head{
+          width:80%;
+      }
+
+      .lab{
+          margin: 0;
+          padding: 0;
+      }
+
+      .in{
+          margin: 0 !important;
+          padding: 0;
+      }
+  }
