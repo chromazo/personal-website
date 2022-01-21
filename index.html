@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+
+    <!-- CSS stylesheets -->
+    <link rel="stylesheet" href="index.css">
+
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/73f9820880.js" crossorigin="anonymous"></script>
+
+    <!-- bootstrap scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+    <!-- AOS CSS library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- page title -->
+    <title>Shivam Singh</title>
+</head>
+
+<body>
+    <section id="home">
+        <div class="container-fluid pad">
+            <nav class="navi navbar navbar-expand-lg navbar-dark">
+                <a class="navbar-brand brand" href="#">Shivam Singh</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item nav-li"><a class="nav-link" href="#title">About</a></li>
+                        <li class="nav-item nav-li"><a class="nav-link" href="#contact">Contact</a></li>
+                        <li class="nav-item nav-li"><a class="nav-link resume p" href="resume.pdf">Resume</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <h2 class="note" data-aos="zoom-in-up"> &#128075;Hi there,
+                <br> I am Shivam. <br>A Web Developer
+            </h2>
+            <img src="images/city.png" alt="city image" class="home-img">
+            <img src="images/rocket.png" alt="rocket image" class="rocket">
+            <img src="images/satellite.png" alt="satellite image" class="satellite">
+        </div>
+    </section>
+    <section id="title">
+
+        <div class="container-fluid pad title-box">
+
+            <h2 class="me">About Me</h2>
+            <div class="row" data-aos="flip-left" data-aos-easing="linear">
+                <div class="title-bio col-lg-6">
+                    <p class="bio-text">I am a Developer based in Mumbai, India.Currently a undergrad at TEC Nerul, &nbsp;doing major in Electronic Engineering.</p>
+                    <button class="resume"><a href="resume.pdf"> Resume</a></button>
+                </div>
+                <div class="t-img-box center col-lg-6">
+                    <img class="t-image" src="images/self.png" alt="Shivam Singh image">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="skill">
+        <div class="container-fluid">
+            <h2 class="s-head">SKILLS</h2>
+            <p class="s-data">My Technical Expertise</p>
+            <p class="s-mdata">Always ready to learn new and emerging technologies</p>
+            <div class="skill1 row" data-aos="fade-left" data-aos-easing="linear">
+                <div class="col-lg-4 s-img">
+                    <p>Web Development</p>
+                    <hr>
+                    <img src="images/programming.png" alt="Web Development" class="web">
+                </div>
+                <div class="col-lg-6">
+                    <p class="left p-more">
+                        I came to know about web development during my junior college years, and I was quite facinated by it. you can say my journey in web development began at this point. All these years I have tried and experimented with the foundation i.e html,css and javascript, worked on several projects and honed my skills. Currently I am learning frameworks like bootstrap and also learing react. This journey is never ending, always moving forward.   
+                    </p>
+                </div>
+            </div>
+            <div class="skill2 row" data-aos="fade-right" data-aos-easing="linear">
+                <div class="col-lg-4 s-img">
+                    <p>Python</p>
+                    <hr>
+                    <img src="images/python.png" alt="Python" class="python">
+                </div>
+                <div class="col-lg-6">
+                    <p class="p-more left">
+                        Python is one of the best things that I came to know about. such a dynamic, easy to learn language was definately made for me.I came to know about it in 2nd year of engineering. learning it was not that difficult,infact quite enjoyable, its full of surprises. I developed various projects using python, and am currently learning flask.
+                    </p>
+                </div>
+            </div>
+    </section>
+    <section id="contact">
+        <p class="contact-me">Want to talk, contact me here&#128071;</p>
+        <a href="https://www.linkedin.com/in/shivam-singh-66466a206" class="c-icon" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a><a href="#" class="c-icon"><i
+                class="fab fa-twitter fa-2x"></i></a><a href="https://github.com/chromazo" class="c-icon"><i
+                class="fab fa-github fa-2x"></i></a><a href="contact.html" class="c-icon"><i
+                class="far fa-envelope fa-2x "></i></a>
+    </section>
+    <footer>
+    <p class="credit">designed and developed by your own&nbsp;
+    <p class="name"> Shivam Singh</p>
+    </p><br>
+     <small>&copy; Copyright 2022, Shivam Singh</small>
+    </footer>
+
+      <!-- aos script -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+      once: true,
+    });
+  </script>
+</body>
+
+</html>
